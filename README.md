@@ -6,7 +6,7 @@
 
 ## Functions 
 
-* Manage filament sms resin weight, type e Volpe storage 
+* Manage filament and resin weight, type e Volpe storage 
 
 * 3D printer updates, month print hours 
 
