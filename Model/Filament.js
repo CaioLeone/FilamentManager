@@ -14,8 +14,8 @@ const Filament = connection.define({
     weight:{
         type: Sequelize.INTEGER,
         allowNull: false
-    }
-    
+    } 
 });
+//Filament.sync({force: true});
 
 module.exports = Filament;

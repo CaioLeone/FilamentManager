@@ -1,23 +1,18 @@
 const Sequelize = require("sequelize");
 const connection = require("../database/database");
 
-const Resin = connection.define({
+const FilamentType = connection.define({
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
         primaryKey: true        
     },
-    brand: {
+    type: {
         type: Sequelize.STRING,
         allowNull: false
     },
-    weight:{
-        type: Sequelize.INTEGER,
-        allowNull: false
-    }
 });
 
+//FilamentType.sync({force: true});
 
-//Resin.sync({force: true});
-
-module.exports = Resin;
+module.exports = FilamentType;

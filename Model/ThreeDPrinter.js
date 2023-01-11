@@ -17,4 +17,6 @@ const ThreeDPrinter = connection.define({
     }
 });
 
+//ThreeDPrinter.sync({force: true});
+
 module.exports = ThreeDPrinter;
