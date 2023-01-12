@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const connection = require("../database/database");
 
-const Resin = connection.define({
+const Material = connection.define({
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
@@ -14,10 +14,8 @@ const Resin = connection.define({
     weight:{
         type: Sequelize.INTEGER,
         allowNull: false
-    }
+    } 
 });
+//Filament.sync({force: true});
 
-
-//Resin.sync({force: true});
-
-module.exports = Resin;
+module.exports = Material;

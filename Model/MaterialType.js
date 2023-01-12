@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const connection = require("../database/database");
 
-const FilamentType = connection.define({
+const MaterialType = connection.define({
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
@@ -13,6 +13,6 @@ const FilamentType = connection.define({
     },
 });
 
-//FilamentType.sync({force: true});
+//MaterialType.sync({force: true});
 
-module.exports = FilamentType;
+module.exports = MaterialType;
