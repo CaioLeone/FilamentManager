@@ -1,5 +1,6 @@
 const Sequelize = require("sequelize");
 const connection = require("../database/database");
+const MaterialType = require("./MaterialType");
 
 const Material = connection.define({
     id: {
@@ -17,5 +18,7 @@ const Material = connection.define({
     } 
 });
 //Filament.sync({force: true});
+
+Material.hasOne(MaterialType);
 
 module.exports = Material;
