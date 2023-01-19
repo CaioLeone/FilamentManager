@@ -6,7 +6,7 @@
 
 ## Functions 
 
-* Manage filament and resin weight, type e Volpe storage 
+* Manage filament and resin stock measuring weight and type of material 
 
 * 3D printer updates, month print hours 
 
