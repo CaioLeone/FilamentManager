@@ -14,19 +14,19 @@
 
 ## Technologies
 
-* Javascript
+* [Javascript](https://www.javascript.com/)
 
-* NodeJS
+* [NodeJS](https://nodejs.org/en/)
 
-* Express
+* [Express](https://expressjs.com/)
 
-* Ejs
+* [Ejs](https://ejs.co/)
 
-* Nodemon
+* [Nodemon](https://nodemon.io/)
 
-* Sequelize
+* [Sequelize](https://sequelize.org/)
 
-* Body-parser
+* [Body-parser](https://www.npmjs.com/package/body-parser)
 
 * HTML
 
