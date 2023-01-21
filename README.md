@@ -28,8 +28,8 @@
 
 * [Body-parser](https://www.npmjs.com/package/body-parser)
 
-* HTML
+* [HTML](https://html.com/)
 
-* CSS
+* [CSS](https://www.w3schools.com/css/)
 
-* Bootstrap
+* [Bootstrap](https://getbootstrap.com/)
