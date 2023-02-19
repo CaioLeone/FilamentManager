@@ -6,9 +6,13 @@
 
 ## Functions 
 
-* Manage filament and resin stock measuring weight and type of material 
+* Manage filament stock
 
-* 3D printer updates, month print hours 
+* Manage resin stock 
+
+* Measuring weight and type of material used in printed objects 
+
+* 3D printer updates, monthly print hours 
 
 * Projects printed and their cost 
 
